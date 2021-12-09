@@ -19,8 +19,8 @@ Here, we strip the input text to remove any spaces on either side of the text.
 Next, the String is formatted using split and strip to extract the directional data and the numeric data, seperately.
 
 The pole data is passed to a function "ifPositiveOrNegative" that returns;
-    - "", if a positive direction
-    - "-", if a negative direction
+- "", if a positive direction
+- "-", if a negative direction
 The numeric data is combined with their corresponding signs and stored as "final_link"
 
 This is then combined and added to the url, ""https://api.weather.gov/points/{final_link} and a get request is made.
