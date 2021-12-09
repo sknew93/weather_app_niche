@@ -7,6 +7,8 @@ Once called, the page has a text box and a button into which users are expected 
 
 Hitting the submit button takes that inputted string and passes it to a function, "getAPIData".
 Here, we strip the input text to remove any spaces on either side of the text.
+
+<br>
 Next, the String is formatted using split and strip to extract the directional data and the numeric data, seperately.
 
 The pole data is passed to a function "ifPositiveOrNegative" that returns;
