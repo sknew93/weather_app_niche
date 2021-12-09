@@ -13,13 +13,12 @@ STEPS to reproduce
 We have the app.py file that calls the pages into view.
 Once called, the page has a text box and a button into which users are expected to type in their cooridantes in the following style "38.2527 N, 85.7585 W".
 
-<br>
+
 Hitting the "Coat tonight?" button takes that inputted string and passes it to a function, "getAPIData".
 
-<br>
 Here, we strip the input text to remove any spaces on either side of the text.
 
-<br>
+
 Next, the String is formatted using split and strip to extract the directional data and the numeric data, seperately.
 The pole data is passed to a function "ifPositiveOrNegative" that returns;
 - "", if a positive direction
