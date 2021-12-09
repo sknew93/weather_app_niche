@@ -9,7 +9,7 @@ STEPS to reproduce
 - activate virtual envinronment
 - flask run
 
-<br>
+
 We have the app.py file that calls the pages into view.
 Once called, the page has a text box and a button into which users are expected to type in their cooridantes in the following style "38.2527 N, 85.7585 W".
 
