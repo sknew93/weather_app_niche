@@ -1,5 +1,6 @@
 # tonightWeather_FLASK
 An extremely niche app that will tell you tonight's temperature. :)
+
 <br>
 STEPS to reproduce
 - git pull
@@ -7,7 +8,6 @@ STEPS to reproduce
 - install requirements from requirements.txt
 - activate virtual envinronment
 - flask run
-<br>
 
 <br>
 We have the app.py file that calls the pages into view.
