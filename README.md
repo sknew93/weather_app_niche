@@ -7,7 +7,7 @@ STEPS to reproduce
 - install requirements from requirements.txt
 - activate virtual envinronment
 - flask run
-
+<br>
 
 <br>
 We have the app.py file that calls the pages into view.
